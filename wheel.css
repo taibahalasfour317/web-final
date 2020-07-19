@@ -1,0 +1,153 @@
+
+
+body{
+    margin: 0px;
+       text-align: right;
+       margin: 0px;
+    
+   }
+   
+   .nav {
+       border: 5px solid #FEDB4B;
+       background-color: #FEDB4B;
+       padding: 3px;
+       justify-content: right;
+       
+   }
+   .flex-sm-fill{
+       color:white ;
+       font-size: 23px;
+       margin: 0px;
+       margin-top: 10px;
+       justify-content: flex-end;
+   }
+   .logo{
+       margin-top: 0px;
+       margin-bottom: 15px;
+       margin-right: 10px;
+   }
+   .container_gr{
+     height: 300px;
+     width: 100%;
+     margin-bottom: 680px;
+   
+   }
+   
+   
+   .grid{
+     margin-bottom: 80px;
+   margin-left: 80px;
+   margin-right: 80px;
+     display:grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 30px;
+     align-items: center;
+     
+   
+   }
+   
+   .grid > article {
+     border: 1px soild #ccc ;
+   box-shadow: 2px 2px 6px rgba(0,0,0,0.3) ;
+   border-radius: 3px;
+   text-align: center;
+   margin-bottom: 70px;   
+   background-color: white;
+   
+   }
+   
+   .grid > article:hover {
+     transition: transform .1s ease-out;
+     transform: translateY(5px);
+   
+   }
+   .grid >article {
+   
+     white-space: 100%;
+     
+   }
+   .text{
+     padding: 0 20px 20px;
+   }
+   
+   .text >h3 {
+     text-transform: uppercase;
+   
+   }
+    
+   .text > .btn{
+   
+       background: linear-gradient(to right, #faf3dd,#FEDB4B );
+      border-radius: 3px;
+      border:  1px solid darkblue ;
+      color: darkblue;
+      padding: 10px;
+      width: 60%;
+      font-weight: 600px;
+      text-shadow: 2px 2px 6px 8px rgba(0,0,0,0.3);
+   
+   }
+   
+   @media(max-width: 768px) {
+     .grid {
+       grid-template-columns: repeat(2,1fr);
+     }
+   }
+   
+   @media(max-width: 500px) {
+     .grid {
+       grid-template-columns: repeat(1,1fr);
+     }
+   }
+   
+   .gridn >article {
+     text-align: center;
+   }
+   
+   
+   
+   .jumbotron{
+     margin: 0px;
+     background-image: url("./images88/wheelback.png"  )     ;
+           
+     text-align: right;
+     height: 200px;
+     width: 100%;
+   background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     backface-visibility: hidden;
+     background-size: 100%;
+       -webkit-animation: bg-pan-br 8s infinite both;
+             animation: bg-pan-br 8s infinite both;}
+             
+   
+             .display-4{
+               font-family: 'Cairo', sans-serif;
+   
+               font-weight:500px;
+               color: white; }
+   
+             
+               @-webkit-keyframes bg-pan-br {
+                 0% {
+                   background-position: 0% 0%;
+                 }
+                 100% {
+                   background-position: 100% 100%;
+                 }
+               }
+               @keyframes bg-pan-br {
+                 0% {
+                   background-position: 0% 0%;
+                 }
+                 100% {
+                   background-position: 100% 100%;
+                 }
+               }
+   
+   
+   
+   
+   
+               

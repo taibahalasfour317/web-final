@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سهالات</title>
+    <link rel="icon" href="./images88/logo.png"/>
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<style>
+  *{
+    margin: 0PX;
+  }
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  
+  }
+
+
+
+
+h1 {
+  margin-bottom: 50px;
+  display: inline-block;
+  color: white;
+  font-family: 'Righteous', serif;
+  font-size: 16em; 
+  text-shadow: .03em .03em 0 #FEDB4B;
+  -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+
+  @-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  }
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+  h1:after {
+    content: attr(data-shadow);
+    position: absolute;
+    top: .06em; left: .06em;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        hsla(48,20%,90%,1) 45%,
+        hsla(48,20%,90%,1) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+ background-clip: text;
+  
+  
+    animation: shad-anim 15s linear infinite;
+    }
+
+@keyframes shad-anim {
+  0% {background-position: 0 0}
+  0% {background-position: 100% -100%}
+  }
+</style>
+</head>
+
+<header> 
+    <nav class="nav nav-pills " style="margin-top: 0px; padding-top: 0px;">
+        <img  class="logo" src="./images88/logo.png" width="68px"/>
+        
+       
+        <a class="flex-sm-fill text-sm-center" href="./index.html" tabindex="-1" aria-disabled="true"> الصفحة الرئيسية</a>
+       
+        <a class="flex-sm-fill text-sm-center" href="./em.html">ارقام الطوارئ</a>
+        <a class="flex-sm-fill  text-sm-center " href="./contactus.html">تواصل معنا </a>
+        <button class="speaker"><img src="./images88/speaker.png" width="35px" onclick="play()"> استمع<audio   id="audio" >
+            <source src="./audio/sa.mp3" type="audio">
+        </audio></button>
+      </nav>
+
+
+
+      <h1 data-shadow='سهالات'>سهالات</h1>
+
+
+
+      <!-- <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 data-shadow='سهالات'>سهالات</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <div class="blink" id="blink">سهالات</div> -->
+
+
+<!--       
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="./images88/Screenshot (67).png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div> -->
+        
+          
+</header>
+<body style="background-color: beige;">
+
+    <table>
+        <tr>
+            <td> <div class="box" style="background-color: white;"> 
+                <div class="icons">
+                    <img src="./images88/class (1).png" width="70px" height="70px" />
+                    <a  class="iconlink" href="./society.html" style= > مراكز الخدمة المجتمعية</a>
+            </div>
+            </td>
+           
+            <td> <div class="box"> 
+                <div class="icons">
+                    <img src="./images88/stethoscope.png" width="70px" height="70px" />
+                    <a class="iconlink" href="./medical.html"> الخدمات الطبية </a>
+        </div></div>
+        
+            </td>
+        </tr>
+<tr>
+            <td> <div class="box"> 
+                <div class="icons">
+                    <img src="./images88/profile.png" width="70px" height="70px" />
+                    <a class="iconlink"  href="./formal.html"> الوثائق الرسمية</a>
+        </div>
+        </td> 
+
+        <td> <div class="box"> 
+            <div class="icons">
+                <img src="./images88/wheelchair.png" width="70px" height="70px" />
+                <a class="iconlink" href="./wheel.html"> المعدات الطبية</a>
+    </div>
+        </td>
+</tr>
+<td> <div class="box"> 
+    <div class="icons">
+<img src="./images88/mall.png" width="70px" height="70px" />
+<a class="iconlink" href="./mall.html"> مجمعات</a>
+</div>
+</td>
+            <td> <div class="box"> 
+                <div class="icons">
+                    <img src="./images88/cross.png" width="70px" height="70px" />
+                    <a  class="iconlink" href="./list.html" >   رسائل صحية</a>
+            </div>
+            </td>  
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script> 
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    function play() {
+      var audio = new Audio('./audio/sa.mp3')
+      audio.play();
+    }</script>
+    <script src="sweetalert2.all.min.js"></script>
+<!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+
+    <script src="./script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
+        <div style="display: flex ; justify-content: center;">
+        <img  class="logof" src="./images88/logo.png" width="68px"/>
+        <h4 style="font-size: 50px;">سهالات</h4>
+        </div>
+        <h5 class="text-uppercase font-weight-bold">عساكم ذخر لنا .... </h5>
+        
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+         
+          <p>ماقصرتوا معانا ولانكم جزء من حياتنا نقدم لكم موقع يسهل عليكم عملية البحث عن احتياجاتكم ويوفر وقتكم وجهدكم 
+            <p>
+          
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mb-md-0 mb-3">
+  
+          <!-- Content -->
+      
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-google"  style="font-size: 30px;"a></a> 
+             </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-instagram"  style="font-size: 30px;"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="fa fa-twitter" style="font-size: 30px;"></a>
+              </i>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Text -->
+  
+    <!-- Copyright -->
+    <hr>
+    <div class="footer-copyright text-center py-3"> © 2020 الحقوق محفوظة ل:
+     <a href="#" > سهالات</a>
+   </div> 
+    
+    <!-- Copyright -->
+  
+  </footer>
+
+</html>

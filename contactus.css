@@ -1,0 +1,229 @@
+h3{
+    
+    text-align: right;
+}
+
+input{ text-align:  right ;
+    width: 50%;
+    padding: 10px;
+    font-size: 30px;
+}
+
+td{ display: inline ;
+font-size: 30px;
+
+}
+
+input.check{
+    width: 30px;
+}
+
+table{border: none ;
+    align-items: right;
+    width: 80%;
+
+  
+}
+
+input[type="submit" i] { 
+    width: 120px;
+height: 55px;}
+
+h1{
+    font-size: 70px;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Economica", "Arial", sans-serif;
+    font-size: 18px;
+    background:lightgoldenrodyellow;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+ max-width: 700px;
+    margin: 0 auto;
+    height: 80%;
+  }
+  
+  form {
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    background: white;
+    text-align: center;
+    -webkit-animation: slide-in-top 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+  }
+
+  @-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  input {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed lightblue;
+    outline: none;
+    font-size: 20px;
+    font-family: "Economica", "Arial", sans-serif;
+    font-weight: 400;
+    transition: all 0.2s ease;
+  }
+  
+  input:focus {
+    border-color: deepskyblue;
+  }
+
+  textarea{
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 80px;
+    border: 2px dashed lightblue;
+    outline: none;
+    font-size: 20px;
+    font-family: "Economica", "Arial", sans-serif;
+    font-weight: 400;
+    transition: all 0.2s ease;
+
+  }
+
+  h5{
+    font-size: 20px;
+    color: gray;
+  }
+  
+  .send {
+    position: absolute;
+    left: calc(50% - 150px / 2);
+    bottom: calc(- 50px / 2);
+    width: 150px;
+    height: 50px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-family: "Economica", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background: #FEDB4B;
+    transition: all 0.2s ease;
+  }
+  
+  .send:hover {
+    background: lightcoral;
+  }
+  
+  button.valid,
+  button.valid:hover {
+    background: orange;
+  }
+  
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  svg path {
+    stroke-width: 10px;
+    stroke: orange;
+    fill: none;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+  svg path.hidden {
+    opacity: 0;
+  }
+  
+  svg path.animate {
+    animation: drawBorder 1s linear;
+  }
+  
+  @keyframes drawBorder {
+    from {
+      stroke-dasharray: 4000;
+      stroke-dashoffset: 4000;
+    }
+  
+    to {
+      stroke-dasharray: 4000;
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .button-1{ 
+  border: none;
+margin-top: 15px;
+  justify-content: left;
+    text-decoration: none;
+    font-display: none ;
+  background-color: #FEDB4B;
+      animation-name: Example;
+      animation-duration: 10s;
+      padding: 20px; 
+      font-size: 20px;
+    }
+      
+      @keyframes Example {
+      from {background-color: #FEDB4B;}
+
+    to {background-color: orange; }
+      }
+
+      a:-webkit-any-link {
+          color: -webkit-link;
+          cursor: pointer;
+          text-decoration: none;
+          color:white;
+
+      }
+
+      header{
+        height: 50px;
+      }

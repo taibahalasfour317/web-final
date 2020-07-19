@@ -1,0 +1,304 @@
+
+
+
+
+
+*{
+  margin:0;
+}
+  body{
+ 
+    text-align: right;
+    font-family: arial;
+    
+    margin: 0px;
+}
+
+#blink {
+  margin-top: 100px;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: red;
+    width: 100%;
+    height: 100px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-size: 85px;
+    display: inline-block;
+    position: absolute;
+    text-shadow: 0 0 5px #f00;
+}
+.blink {
+    animation: blink 1.3s step-end 0s infinite normal both;
+    -webkit-animation: blink 1.3s step-end 0s infinite normal both;
+}
+@keyframes blink { 
+    0% { opacity: 1; } 
+    50% { opacity: 0; } 
+    100% { opacity: 0; } 
+}
+@-webkit-keyframes blink { 
+    0% { opacity: 1; } 
+    50% { opacity: 0; } 
+    100% { opacity: 0; } 
+}
+
+.nav {
+    border: 5px solid #FEDB4B;
+    background-color: #FEDB4B;
+    padding: 3px;
+    justify-content: right;
+}
+.flex-sm-fill{
+    color:white ;
+    font-size: 23px;
+    margin: 0px;
+    margin-top: 10px;
+}
+.logo{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+
+
+.field {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 320px;
+}
+
+.number, #location {
+  font-weight: bold;
+  padding: 5px;
+  font-size: 26px;
+  min-height: 30px;
+}
+
+.othernumbers {
+  font-size: 20px;
+}
+
+
+
+#floatingCirclesG {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  margin: auto;
+  transform: scale(0.6);
+  -o-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+}
+
+.f_circleG {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 7px;
+  width: 7px;
+  border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  animation-name: f_fadeG;
+  -o-animation-name: f_fadeG;
+  -ms-animation-name: f_fadeG;
+  -webkit-animation-name: f_fadeG;
+  -moz-animation-name: f_fadeG;
+  animation-duration: 1.2s;
+  -o-animation-duration: 1.2s;
+  -ms-animation-duration: 1.2s;
+  -webkit-animation-duration: 1.2s;
+  -moz-animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+}
+
+#frotateG_01 {
+  left: 0;
+  top: 16px;
+  animation-delay: 0.45s;
+  -o-animation-delay: 0.45s;
+  -ms-animation-delay: 0.45s;
+  -webkit-animation-delay: 0.45s;
+  -moz-animation-delay: 0.45s;
+}
+
+#frotateG_02 {
+  left: 4px;
+  top: 4px;
+  animation-delay: 0.6s;
+  -o-animation-delay: 0.6s;
+  -ms-animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+}
+
+#frotateG_03 {
+  left: 16px;
+  top: 0;
+  animation-delay: 0.75s;
+  -o-animation-delay: 0.75s;
+  -ms-animation-delay: 0.75s;
+  -webkit-animation-delay: 0.75s;
+  -moz-animation-delay: 0.75s;
+}
+
+#frotateG_04 {
+  right: 4px;
+  top: 4px;
+  animation-delay: 0.9s;
+  -o-animation-delay: 0.9s;
+  -ms-animation-delay: 0.9s;
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+}
+
+#frotateG_05 {
+  right: 0;
+  top: 16px;
+  animation-delay: 1.05s;
+  -o-animation-delay: 1.05s;
+  -ms-animation-delay: 1.05s;
+  -webkit-animation-delay: 1.05s;
+  -moz-animation-delay: 1.05s;
+}
+
+#frotateG_06 {
+  right: 4px;
+  bottom: 4px;
+  animation-delay: 1.2s;
+  -o-animation-delay: 1.2s;
+  -ms-animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+}
+
+#frotateG_07 {
+  left: 16px;
+  bottom: 0;
+  animation-delay: 1.35s;
+  -o-animation-delay: 1.35s;
+  -ms-animation-delay: 1.35s;
+  -webkit-animation-delay: 1.35s;
+  -moz-animation-delay: 1.35s;
+}
+
+#frotateG_08 {
+  left: 4px;
+  bottom: 4px;
+  animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  -ms-animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+}
+
+@keyframes f_fadeG {
+  0% {
+    background-color: rgb(79, 99, 103);
+  }
+
+  100% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+@-o-keyframes f_fadeG {
+  0% {
+    background-color: rgb(79, 99, 103);
+  }
+
+  100% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+@-ms-keyframes f_fadeG {
+  0% {
+    background-color: rgb(79, 99, 103);
+  }
+
+  100% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+@-webkit-keyframes f_fadeG {
+  0% {
+    background-color: rgb(79, 99, 103);
+  }
+
+  100% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+@-moz-keyframes f_fadeG {
+  0% {
+    background-color: rgb(79, 99, 103);
+  }
+
+  100% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+
+
+
+
+button.b911 {
+  display: block;
+  position: relative;
+  height: 120px;
+  width: 120px;
+  margin: 100px auto;
+  background: rgba(220, 30, 30, 1);
+  padding: 0;
+  font-family: inherit;
+  font-size: 2rem;
+  color: rgba(80, 10, 10, 0.7);
+  text-shadow: 0px 2px 2px rgba(150, 10, 10, 1), 0 0 0 #000,
+    0px 2px 1px rgba(255, 220, 200, 0.9);
+  border: none;
+  border-radius: 100%;
+  box-shadow: inset 0px 1px 0px 1px rgba(240, 80, 60, 0.8),
+    inset 0px -15px 50px 20px rgba(120, 10, 10, 0.5),
+    inset 0px 20px 50px rgba(150, 10, 10, 0.3), 0px 1px 2px rgba(130, 10, 10, 1),
+    0px -1px 1px rgba(150, 10, 10, 0.8);
+}
+
+
+
+table{
+  display: flex;
+margin-top: 170px;
+  margin-right: 50x;
+  margin-left: 50px;
+justify-content: center;
+align-items: center;
+align-self: center;}
+td{
+  padding: 10px;
+}
